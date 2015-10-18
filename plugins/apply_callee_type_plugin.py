@@ -66,6 +66,7 @@ class apply_callee_type_plugin_t(idaapi.plugin_t):
     def run(self, arg):
         idaapi.msg('apply_callee_type_plugin:run\n')
         flare.apply_callee_type.main()
+        sys.stderr.write("apply_callee_type_plugin: run\n")
 
     def term(self):
         idaapi.msg('apply_callee_type_plugin:term\n')

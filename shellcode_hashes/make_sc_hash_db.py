@@ -45,7 +45,7 @@ INTERESTING_DLLS = [
     'ntoskrnl.exe', 'oleaut32.dll', 'psapi.dll',    'shell32.dll',
     'shlwapi.dll',  'srsvc.dll',    'urlmon.dll',   'user32.dll',
     'winhttp.dll',  'wininet.dll',  'ws2_32.dll',   'wship6.dll',
-    'advpack.dll',
+    'advpack.dll', 'gbieh.dll', 'gbpdist.dll', 'gbpsv.dll', 
 ]
 
 VERBOSE=False
